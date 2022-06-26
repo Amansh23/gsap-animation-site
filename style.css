@@ -1,0 +1,227 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+#main #left{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(236, 54, 54);
+
+}
+#main #left .nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+
+}
+#main #left .nav .a1{
+    width: 10%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: gilroy light;
+    font-size: 10px;
+}
+#main #left .nav .a2{
+    width: 10%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: gilroy light;
+    font-size: 10px;    
+} 
+#main #left .nav .a3{ 
+    width: 12%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: gilroy light;
+    font-size: 10px;
+}
+
+#main #left #box{
+    width: 90%;
+    height: 50%;
+    margin-left: 30px;
+    margin-top: 50px;
+    padding: 0px 10px;
+}
+
+#main #left #box #t1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+#main #left #box #t1 h1{
+    font-size: 110px;
+    font-family: gilroy;
+    color: white;
+}
+#main #left #box #t2{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 25px;
+}
+#main #left #box #t2 p{
+    font-family: gilroy;
+    font-size: 15px;
+    color: white;
+}
+#main #left #box #t3{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end
+}
+#main #left #box #t3 .t4{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: none;
+    font-family: gilroy;
+    
+}
+#main #left  #ln{
+    width: 30%;
+    height: 2px;
+    background-color: white;
+    margin-top: 150px;
+    margin-right: 30px;
+
+}
+#main #right{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(248, 241, 241);
+    position: relative;
+}
+#main #right #nav22{
+    width: 50%;
+    height: 5%;
+    margin-top: 20px;
+    margin-left: 300px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+#main #right #nav22 .c1{
+    width: 15%;
+    height:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}#main #right #nav22 .c2{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#main #right #nav22 .c3{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#main #right #box2{
+    width:853px;
+    height: 70%;
+    position:absolute;
+    top: 30%;
+    left: -175px;
+    padding: 10px 0px ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#main #right #box2 #box3{
+    width: 100%;
+    height: 100%;
+    background-image: url(22.png);
+    background-size: cover;
+    background-position: right;
+}
+
+@media(max-width:500px){
+    #main #left .nav{
+        margin-left: -76px;
+    }
+    #main{
+        flex-direction: column;
+        display: flex;
+    }
+    #main #left #box #t1 h1{
+        font-size: 44px;
+        margin-left: 100px;
+    }
+    #main #left #box #t2 {
+        width: 40%;
+        height: 28%;
+        margin-left: 82px;
+    }
+    #main #left #box #t2 p{
+        font-size: 10px;
+    }
+    #main #left #box #t3 .t4 {
+        margin-bottom: -13px;
+        margin-left: 100px;
+    }
+    #main #left #box {
+        margin-top: -20px;
+    }
+    #main #left{
+        height: 164%;
+    }
+    #main #left #ln{
+        margin-top: 176px;
+    }
+    #main #right #box2 #box3 {
+        width: 48%;
+        height: 125%;
+        margin-left: 155px;
+    }
+    #main #right #nav22 {
+        margin-left: 56px;
+    }
+}
